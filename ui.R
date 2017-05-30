@@ -1,7 +1,13 @@
 library(shiny)
 library(plotly)
+library(shinythemes)
 
-shinyUI(navbarPage('INFO 201 Project',
+shinyUI(fluidPage(theme = shinytheme("united"),
+  (navbarPage('INFO 201 Project',
+                   tabPanel("Project Description",
+                        includeMarkdown("ProjectDocumentation.md")    
+                            ),
+                   
                    tabPanel('Word Cloud',
                             titlePanel("Yelp stuff"),
                             
@@ -35,6 +41,11 @@ shinyUI(navbarPage('INFO 201 Project',
                                 plotlyOutput("stackedBar")
                               )
                               
-                            ))
+                            )),
+              tabPanel("Meet The Team",
+                       includeMarkdown("MeetTheTeam.rmd")    
+              )
+)
+)
 )
 )
