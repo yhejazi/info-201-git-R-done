@@ -30,8 +30,8 @@ MakeWordCloud <- function(food.type) {
   body.data <- fromJSON(response.content)
   test <- is.data.frame(body.data$businesses)
   
-  results <- flatten(body.data$businesses) %>% 
-             select(name)
+  results <- jsonlite::flatten(body.data$businesses) %>% 
+             dplyr::select(name)
   
   for (i in 1:3) {
     (url <-
@@ -45,7 +45,7 @@ MakeWordCloud <- function(food.type) {
       break
     }
     
-    more.results <- flatten(body.data$businesses) %>%
+    more.results <- jsonlite::flatten(body.data$businesses) %>%
                     select(name)
     results <- rbind(results, more.results)
   }

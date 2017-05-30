@@ -4,7 +4,7 @@ library(plotly)
 shinyUI(navbarPage('INFO 201 Project',
                    tabPanel('Word Cloud',
                             titlePanel("Yelp stuff"),
-      
+                            
                             sidebarLayout(
                               
                               sidebarPanel(
@@ -13,17 +13,28 @@ shinyUI(navbarPage('INFO 201 Project',
                                 
                                 # Create radio buttons for different manufacturers
                                 radioButtons(inputId = "radio", label = "Food Categories",
-                                       choices = list("Chinese" = "chinese", "Japanese" = "japanese", "Korean" = "korean"),
-                                       selected = "chinese")
+                                             choices = list("Chinese" = "chinese", "Japanese" = "japanese", "Korean" = "korean"),
+                                             selected = "chinese")
                                 
                                 
                               ),
                               # Plots the data and writes a description of the page.
                               mainPanel(
                                 plotOutput("wordcloud")
-                          
+                                
                               )
                             )
-                          )
-                )
+                   ),
+                   tabPanel('StackedBar',
+                            titlePanel('Stacked Bar Chart'),
+                            sidebarLayout(
+                              sidebarPanel(
+                                
+                              ),
+                              mainPanel(
+                                plotlyOutput("stackedBar")
+                              )
+                              
+                            ))
+)
 )
