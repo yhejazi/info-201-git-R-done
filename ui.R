@@ -46,15 +46,15 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                              titlePanel('Restaurant Ratings Map'),
                              sidebarLayout(
                                sidebarPanel(
-                                 selectInput('food', label = 'Select Cuisine',
-                                             choices = list('American' = 'tradamerican',
-                                                            'Italian' = 'italian',
-                                                            'Chinese' = 'chinese',
+                                radioButtons('food', label = 'Select Cuisine',
+                                             choices = list('Chinese' = 'chinese',
                                                             'Japanese' = 'japanese',
                                                             'Korean' = 'korean',
                                                             'Thai' = 'thai',
                                                             'Mediterranean' = 'mediterranean',
-                                                            'Indian' = 'indpak'), 
+                                                            'Indian' = 'indpak',
+                                                            'American' = 'tradamerican',
+                                                            'Italian' = 'italian'), 
                                              selected = 'tradamerican')
                                ),
                                mainPanel(
