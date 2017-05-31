@@ -35,7 +35,9 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                             titlePanel('Stacked Bar Chart'),
                             sidebarLayout(
                               sidebarPanel(
-                                
+                                radioButtons(inputId = 'stackedInput', label = "Select a State", 
+                                            choices = list("Washington" = "WA"),
+                                            selected = "WA")
                               ),
                               mainPanel(
                                 plotlyOutput("stackedBar")
