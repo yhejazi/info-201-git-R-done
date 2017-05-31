@@ -55,7 +55,7 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                                                             'Indian' = 'indpak',
                                                             'American' = 'tradamerican',
                                                             'Italian' = 'italian'), 
-                                             selected = 'tradamerican')
+                                             selected = 'chinese')
                                ),
                                mainPanel(
                                  plotlyOutput('map')
