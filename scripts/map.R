@@ -73,7 +73,7 @@ MakeMap <- function(food.type.input) {
   
   map <- plot_geo(all.ratings, locationmode= 'USA-states',lat = ~lat, lon = ~long)  %>% 
     add_markers(
-      z = ~mean.rating, locations = ~states, colors = 'OrRd',
+      z = ~mean.rating, locations = ~states, colors = 'YlOrRd',
       text = ~paste('Most populated city:', most.pop.city, 
                     paste('Rating:', round(mean.rating, digits = 2)), 
                     sep = '<br />'),
