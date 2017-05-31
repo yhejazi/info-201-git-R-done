@@ -20,7 +20,7 @@ shinyServer(function(input, output) {
     return(MakeStackedBar())
   })
   
-  output$map <- renderPlot({
+  output$map <- renderPlotly({
     return(MakeMap(input$food))
   })
 })
