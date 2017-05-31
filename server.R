@@ -8,6 +8,7 @@ library(wordcloud)
 source("./scripts/wordCloud.R")
 source("./scripts/stackedBar.R")
 source("./scripts/map.R")
+source("./scripts/scatter.R")
 
 shinyServer(function(input, output) {
   output$wordcloud <- renderPlot({
@@ -22,5 +23,9 @@ shinyServer(function(input, output) {
   
   output$map <- renderPlotly({
     return(MakeMap(input$food))
+  })
+
+  output$scatter <- renderPlotly({
+  return(MakeScatter())
   })
 })

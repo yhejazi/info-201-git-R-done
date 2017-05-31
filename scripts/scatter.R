@@ -3,6 +3,7 @@ library(purrr)
 library(jsonlite)
 library(dplyr)
 library(plotly)
+library(tidyr)
 
 MakeScatter<- function() {
   res <- POST("https://api.yelp.com/oauth2/token",
@@ -10,7 +11,7 @@ MakeScatter<- function() {
                           client_id = "iXvoLjOm6wir50Rq0XrwZg",
                           client_secret = 
                             "2jifA0p0BWQROgO6Kmarl9bBc6WFwLH3r8SP9fzFmbrHkq98suQRgAP3OoBduC4u"))
-  token <- content(res)$access_token
+  token <- httr::content(res)$access_token
   
   yelp <- "https://api.yelp.com"
   term <- "restaurant"
@@ -26,10 +27,10 @@ MakeScatter<- function() {
     #> [1] "https://api.yelp.com/v3/businesses/search?term=coffee&location=Vancouver%2C%20BC&limit=3"
     res <- GET(url, add_headers('Authorization' = paste("bearer", token)))
     
-    response.content <- content(res, "text")
+    response.content <- httr::content(res, "text")
     body.data <- fromJSON(response.content)
     
-    loop.results <- flatten(body.data$businesses)
+    loop.results <- jsonlite::flatten(body.data$businesses)
     results <- rbind(results, loop.results)
   }
   
