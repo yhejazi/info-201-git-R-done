@@ -6,7 +6,7 @@ library(plotly)
 library(stringr)
 
 MakeMap <- function(food.type.input) {
-  pop.city.US <- read.csv(file = './scripts/most-pop-cities.csv', stringsAsFactors = FALSE)
+  pop.city.US <- read.csv(file = 'most-pop-cities.csv', stringsAsFactors = FALSE)
   most.pop.city <- pop.city.US$most.pop.city
   
   AvgRating <- function(food.type, city) {
@@ -20,7 +20,7 @@ MakeMap <- function(food.type.input) {
 
     yelp <- "https://api.yelp.com"
     location <- city
-    limit <- 10
+    limit <- 30
     offset <- 0
     categories <- food.type
 
@@ -35,15 +35,13 @@ MakeMap <- function(food.type.input) {
 
     results <- body.data$businesses
     
-    results.info <- results %>% select(name, rating)
-    
-    results.name <- results.info$name
-    results.rating <- results.info$rating
-    total.results <- data.frame(results.name, results.rating, stringsAsFactors = FALSE)
-    
     most.pop.city <- city
-    mean.rating <- mean(results.rating)
-    output <- data.frame(most.pop.city, mean.rating, stringsAsFactors = FALSE)
+    if (test == FALSE){
+      mean.rating <- -1
+    } else {
+      mean.rating <- mean(results$rating) 
+    }
+    output <- data.frame(food.type, most.pop.city, mean.rating, stringsAsFactors = FALSE)
     pop.city.US <- merge(pop.city.US, output, all = TRUE)
     return (pop.city.US)
   }
@@ -87,10 +85,3 @@ MakeMap <- function(food.type.input) {
   
   return (map)
 }
-
-# don't work
-# indian = 'indpak'
-# american traditional = 'tradamerican'
-# korean
-# thai
-# german

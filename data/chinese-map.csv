@@ -1,0 +1,51 @@
+"most.pop.city","states","lat","long","food.type","mean.rating"
+"Birmingham, AL","AL",33.5207,-86.8025,"chinese",3.76
+"Phoenix, AZ","AZ",33.4484,-112.074,"chinese",3.79
+"Little Rock, AR","AR",34.7465,-92.2896,"chinese",3.57777777777778
+"Los Angeles, CA","CA",34.0522,-118.2437,"chinese",3.94
+"Denver, CO","CO",39.7392,-104.9903,"chinese",3.67
+"Bridgeport, CT","CT",41.1865,-73.1952,"chinese",3.67647058823529
+"Wilmington, DE","DE",39.7391,-75.5398,"chinese",3.22826086956522
+"Jacksonville, FL","FL",30.3322,-81.6557,"chinese",3.86
+"Atlanta, GA","GA",33.749,-84.388,"chinese",3.46
+"Boise, ID","ID",43.6187,-116.2146,"chinese",3.20689655172414
+"Chicago, IL","IL",41.8781,-87.6298,"chinese",3.93
+"Indianapolis, IN","IN",39.7684,-86.1581,"chinese",3.89
+"Des Moines, IA","IA",41.6005,-93.6091,"chinese",3.28333333333333
+"Wichita, KS","KS",37.6872,-97.3301,"chinese",3.61
+"Louisville, KY","KY",38.2527,-85.7585,"chinese",3.86
+"New Orleans, LA","LA",29.9511,-90.0715,"chinese",3.58
+"Portland, ME","ME",43.6615,-70.2553,"chinese",3.35294117647059
+"Baltimore, MD","MD",39.2904,-76.6122,"chinese",3.48
+"Boston, MA","MA",42.3601,-71.0589,"chinese",3.58
+"Detroit, MI","MI",42.3314,-83.0458,"chinese",3.66
+"Minneapolis, MN","MN",44.9778,-93.265,"chinese",3.66
+"Jackson, MS","MS",32.2988,-90.1848,"chinese",3.8
+"Kansas City, MO","MO",39.0997,-94.5786,"chinese",3.63
+"Billings, MT","MT",45.7833,-108.5007,"chinese",2.69230769230769
+"Omaha, NE","NE",41.2524,-95.998,"chinese",3.63
+"Las Vegas, NV","NV",36.1699,-115.1398,"chinese",3.99
+"Manchester, NH","NH",42.9956,-71.4548,"chinese",3.21428571428571
+"Newark, NJ","NJ",40.7357,-74.1724,"chinese",3.26595744680851
+"Albuquerque, NM","NM",35.0853,-106.6056,"chinese",3.79
+"New York City, NY","NY",40.7128,-74.0059,"chinese",4.1
+"Charlotte, NC","NC",35.2271,-80.8431,"chinese",3.55
+"Fargo, ND","ND",46.8772,-96.7898,"chinese",3.26470588235294
+"Columbus, OH","OH",39.9612,-82.9988,"chinese",3.77
+"Oklahoma City, OK","OK",35.4676,-97.5164,"chinese",3.8
+"Portland, OR","OR",45.5231,-122.6765,"chinese",3.87
+"Philadelphia, PA","PA",39.9526,-75.1652,"chinese",3.99
+"Providence, RI","RI",41.824,-71.4128,"chinese",3.5
+"Columbia, SC","SC",34.0007,-81.0348,"chinese",3.7
+"Sioux Falls, SD","SD",42.5446,-96.7311,"chinese",3.63157894736842
+"Memphis, TN","TN",35.1495,-90.049,"chinese",3.69
+"Houston, TX","TX",29.7604,-95.3698,"chinese",3.83
+"Salt Lake City, UT","UT",40.7608,-111.891,"chinese",3.54
+"Burlington, VT","VT",44.4759,-73.2121,"chinese",3.3
+"Virginia Beach, VA","VA",36.8529,-75.978,"chinese",3.84
+"Seattle, WA","WA",47.6062,-122.3321,"chinese",3.95
+"Charleston, WV","WV",38.3498,-81.6326,"chinese",3.45833333333333
+"Milwaukee, WI","WI",43.0389,-87.9065,"chinese",3.48
+"Cheyenne, WY","WY",41.14,-104.8202,"chinese",3
+"Anchorage, AK","AK",61.2181,-149.9003,"chinese",3
+"Honolulu, HI","HI",21.3069,-157.8583,"chinese",3.79

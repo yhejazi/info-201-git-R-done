@@ -1,0 +1,51 @@
+"most.pop.city","states","lat","long","food.type","mean.rating"
+"Birmingham, AL","AL",33.5207,-86.8025,"tradamerican",3.75
+"Phoenix, AZ","AZ",33.4484,-112.074,"tradamerican",4.03
+"Little Rock, AR","AR",34.7465,-92.2896,"tradamerican",3.57
+"Los Angeles, CA","CA",34.0522,-118.2437,"tradamerican",4.12
+"Denver, CO","CO",39.7392,-104.9903,"tradamerican",4.01
+"Bridgeport, CT","CT",41.1865,-73.1952,"tradamerican",3.4047619047619
+"Wilmington, DE","DE",39.7391,-75.5398,"tradamerican",3.49
+"Jacksonville, FL","FL",30.3322,-81.6557,"tradamerican",3.98
+"Atlanta, GA","GA",33.749,-84.388,"tradamerican",3.88
+"Boise, ID","ID",43.6187,-116.2146,"tradamerican",3.55
+"Chicago, IL","IL",41.8781,-87.6298,"tradamerican",4.08
+"Indianapolis, IN","IN",39.7684,-86.1581,"tradamerican",3.99
+"Des Moines, IA","IA",41.6005,-93.6091,"tradamerican",3.44
+"Wichita, KS","KS",37.6872,-97.3301,"tradamerican",3.59
+"Louisville, KY","KY",38.2527,-85.7585,"tradamerican",3.85
+"New Orleans, LA","LA",29.9511,-90.0715,"tradamerican",4.03
+"Portland, ME","ME",43.6615,-70.2553,"tradamerican",3.8125
+"Baltimore, MD","MD",39.2904,-76.6122,"tradamerican",3.93
+"Boston, MA","MA",42.3601,-71.0589,"tradamerican",3.71
+"Detroit, MI","MI",42.3314,-83.0458,"tradamerican",3.87
+"Minneapolis, MN","MN",44.9778,-93.265,"tradamerican",3.8
+"Jackson, MS","MS",32.2988,-90.1848,"tradamerican",3.06
+"Kansas City, MO","MO",39.0997,-94.5786,"tradamerican",3.84
+"Billings, MT","MT",45.7833,-108.5007,"tradamerican",3.26666666666667
+"Omaha, NE","NE",41.2524,-95.998,"tradamerican",3.71
+"Las Vegas, NV","NV",36.1699,-115.1398,"tradamerican",4.08
+"Manchester, NH","NH",42.9956,-71.4548,"tradamerican",3.32978723404255
+"Newark, NJ","NJ",40.7357,-74.1724,"tradamerican",3.16279069767442
+"Albuquerque, NM","NM",35.0853,-106.6056,"tradamerican",3.64
+"New York City, NY","NY",40.7128,-74.0059,"tradamerican",4.08
+"Charlotte, NC","NC",35.2271,-80.8431,"tradamerican",3.87
+"Fargo, ND","ND",46.8772,-96.7898,"tradamerican",3.42
+"Columbus, OH","OH",39.9612,-82.9988,"tradamerican",3.88
+"Oklahoma City, OK","OK",35.4676,-97.5164,"tradamerican",3.93
+"Portland, OR","OR",45.5231,-122.6765,"tradamerican",4.09
+"Philadelphia, PA","PA",39.9526,-75.1652,"tradamerican",3.99
+"Providence, RI","RI",41.824,-71.4128,"tradamerican",3.52325581395349
+"Columbia, SC","SC",34.0007,-81.0348,"tradamerican",3.52
+"Sioux Falls, SD","SD",42.5446,-96.7311,"tradamerican",3.28
+"Memphis, TN","TN",35.1495,-90.049,"tradamerican",3.89
+"Houston, TX","TX",29.7604,-95.3698,"tradamerican",3.96
+"Salt Lake City, UT","UT",40.7608,-111.891,"tradamerican",3.72
+"Burlington, VT","VT",44.4759,-73.2121,"tradamerican",3.62
+"Virginia Beach, VA","VA",36.8529,-75.978,"tradamerican",3.85
+"Seattle, WA","WA",47.6062,-122.3321,"tradamerican",4.04
+"Charleston, WV","WV",38.3498,-81.6326,"tradamerican",2.96774193548387
+"Milwaukee, WI","WI",43.0389,-87.9065,"tradamerican",3.73
+"Cheyenne, WY","WY",41.14,-104.8202,"tradamerican",3.22222222222222
+"Anchorage, AK","AK",61.2181,-149.9003,"tradamerican",3.33
+"Honolulu, HI","HI",21.3069,-157.8583,"tradamerican",3.92

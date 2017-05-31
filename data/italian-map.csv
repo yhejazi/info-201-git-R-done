@@ -1,0 +1,51 @@
+"most.pop.city","states","lat","long","food.type","mean.rating"
+"Birmingham, AL","AL",33.5207,-86.8025,"italian",3.33
+"Phoenix, AZ","AZ",33.4484,-112.074,"italian",4.14
+"Little Rock, AR","AR",34.7465,-92.2896,"italian",2.94594594594595
+"Los Angeles, CA","CA",34.0522,-118.2437,"italian",4.1
+"Denver, CO","CO",39.7392,-104.9903,"italian",4.05
+"Bridgeport, CT","CT",41.1865,-73.1952,"italian",3.51612903225806
+"Wilmington, DE","DE",39.7391,-75.5398,"italian",3.46739130434783
+"Jacksonville, FL","FL",30.3322,-81.6557,"italian",3.83
+"Atlanta, GA","GA",33.749,-84.388,"italian",3.92
+"Boise, ID","ID",43.6187,-116.2146,"italian",3.52380952380952
+"Chicago, IL","IL",41.8781,-87.6298,"italian",4.12
+"Indianapolis, IN","IN",39.7684,-86.1581,"italian",3.76
+"Des Moines, IA","IA",41.6005,-93.6091,"italian",3.35897435897436
+"Wichita, KS","KS",37.6872,-97.3301,"italian",2.94318181818182
+"Louisville, KY","KY",38.2527,-85.7585,"italian",3.86
+"New Orleans, LA","LA",29.9511,-90.0715,"italian",3.92
+"Portland, ME","ME",43.6615,-70.2553,"italian",3.87037037037037
+"Baltimore, MD","MD",39.2904,-76.6122,"italian",3.98
+"Boston, MA","MA",42.3601,-71.0589,"italian",4.12
+"Detroit, MI","MI",42.3314,-83.0458,"italian",3.98
+"Minneapolis, MN","MN",44.9778,-93.265,"italian",4.03
+"Jackson, MS","MS",32.2988,-90.1848,"italian",2.81818181818182
+"Kansas City, MO","MO",39.0997,-94.5786,"italian",3.77
+"Billings, MT","MT",45.7833,-108.5007,"italian",3.57692307692308
+"Omaha, NE","NE",41.2524,-95.998,"italian",3.62
+"Las Vegas, NV","NV",36.1699,-115.1398,"italian",4.12
+"Manchester, NH","NH",42.9956,-71.4548,"italian",3.45
+"Newark, NJ","NJ",40.7357,-74.1724,"italian",3.16666666666667
+"Albuquerque, NM","NM",35.0853,-106.6056,"italian",3.61
+"New York City, NY","NY",40.7128,-74.0059,"italian",4.2
+"Charlotte, NC","NC",35.2271,-80.8431,"italian",3.89
+"Fargo, ND","ND",46.8772,-96.7898,"italian",3.26923076923077
+"Columbus, OH","OH",39.9612,-82.9988,"italian",3.89
+"Oklahoma City, OK","OK",35.4676,-97.5164,"italian",3.8
+"Portland, OR","OR",45.5231,-122.6765,"italian",4.08
+"Philadelphia, PA","PA",39.9526,-75.1652,"italian",4.15
+"Providence, RI","RI",41.824,-71.4128,"italian",3.78
+"Columbia, SC","SC",34.0007,-81.0348,"italian",3.30434782608696
+"Sioux Falls, SD","SD",42.5446,-96.7311,"italian",2.57142857142857
+"Memphis, TN","TN",35.1495,-90.049,"italian",3.45
+"Houston, TX","TX",29.7604,-95.3698,"italian",3.94
+"Salt Lake City, UT","UT",40.7608,-111.891,"italian",3.7
+"Burlington, VT","VT",44.4759,-73.2121,"italian",3.23333333333333
+"Virginia Beach, VA","VA",36.8529,-75.978,"italian",3.89
+"Seattle, WA","WA",47.6062,-122.3321,"italian",4.13
+"Charleston, WV","WV",38.3498,-81.6326,"italian",3.43333333333333
+"Milwaukee, WI","WI",43.0389,-87.9065,"italian",3.82
+"Cheyenne, WY","WY",41.14,-104.8202,"italian",3.33333333333333
+"Anchorage, AK","AK",61.2181,-149.9003,"italian",2.94444444444444
+"Honolulu, HI","HI",21.3069,-157.8583,"italian",3.68

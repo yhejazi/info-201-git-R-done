@@ -1,0 +1,51 @@
+"most.pop.city","states","lat","long","food.type","mean.rating"
+"Birmingham, AL","AL",33.5207,-86.8025,"indpak",4
+"Phoenix, AZ","AZ",33.4484,-112.074,"indpak",3.796875
+"Little Rock, AR","AR",34.7465,-92.2896,"indpak",4.16666666666667
+"Los Angeles, CA","CA",34.0522,-118.2437,"indpak",4.04
+"Denver, CO","CO",39.7392,-104.9903,"indpak",3.94318181818182
+"Bridgeport, CT","CT",41.1865,-73.1952,"indpak",4.42857142857143
+"Wilmington, DE","DE",39.7391,-75.5398,"indpak",3.57692307692308
+"Jacksonville, FL","FL",30.3322,-81.6557,"indpak",3.94444444444444
+"Atlanta, GA","GA",33.749,-84.388,"indpak",3.88
+"Boise, ID","ID",43.6187,-116.2146,"indpak",3.9
+"Chicago, IL","IL",41.8781,-87.6298,"indpak",3.86
+"Indianapolis, IN","IN",39.7684,-86.1581,"indpak",3.8
+"Des Moines, IA","IA",41.6005,-93.6091,"indpak",3.85714285714286
+"Wichita, KS","KS",37.6872,-97.3301,"indpak",3.64285714285714
+"Louisville, KY","KY",38.2527,-85.7585,"indpak",3.9
+"New Orleans, LA","LA",29.9511,-90.0715,"indpak",4.21428571428571
+"Portland, ME","ME",43.6615,-70.2553,"indpak",3.33333333333333
+"Baltimore, MD","MD",39.2904,-76.6122,"indpak",3.7258064516129
+"Boston, MA","MA",42.3601,-71.0589,"indpak",3.76
+"Detroit, MI","MI",42.3314,-83.0458,"indpak",3.61538461538462
+"Minneapolis, MN","MN",44.9778,-93.265,"indpak",3.81521739130435
+"Jackson, MS","MS",32.2988,-90.1848,"indpak",4
+"Kansas City, MO","MO",39.0997,-94.5786,"indpak",3.71428571428571
+"Billings, MT","MT",45.7833,-108.5007,"indpak",3.75
+"Omaha, NE","NE",41.2524,-95.998,"indpak",3.75
+"Las Vegas, NV","NV",36.1699,-115.1398,"indpak",4
+"Manchester, NH","NH",42.9956,-71.4548,"indpak",4.08333333333333
+"Newark, NJ","NJ",40.7357,-74.1724,"indpak",3.77272727272727
+"Albuquerque, NM","NM",35.0853,-106.6056,"indpak",4.125
+"New York City, NY","NY",40.7128,-74.0059,"indpak",4.23
+"Charlotte, NC","NC",35.2271,-80.8431,"indpak",3.59090909090909
+"Fargo, ND","ND",46.8772,-96.7898,"indpak",4.25
+"Columbus, OH","OH",39.9612,-82.9988,"indpak",3.64473684210526
+"Oklahoma City, OK","OK",35.4676,-97.5164,"indpak",4
+"Portland, OR","OR",45.5231,-122.6765,"indpak",3.91111111111111
+"Philadelphia, PA","PA",39.9526,-75.1652,"indpak",3.85
+"Providence, RI","RI",41.824,-71.4128,"indpak",3.88888888888889
+"Columbia, SC","SC",34.0007,-81.0348,"indpak",4.11111111111111
+"Sioux Falls, SD","SD",42.5446,-96.7311,"indpak",4
+"Memphis, TN","TN",35.1495,-90.049,"indpak",3.8
+"Houston, TX","TX",29.7604,-95.3698,"indpak",3.86
+"Salt Lake City, UT","UT",40.7608,-111.891,"indpak",3.76666666666667
+"Burlington, VT","VT",44.4759,-73.2121,"indpak",3.4
+"Virginia Beach, VA","VA",36.8529,-75.978,"indpak",4.09090909090909
+"Seattle, WA","WA",47.6062,-122.3321,"indpak",3.64
+"Charleston, WV","WV",38.3498,-81.6326,"indpak",3.66666666666667
+"Milwaukee, WI","WI",43.0389,-87.9065,"indpak",3.94736842105263
+"Cheyenne, WY","WY",41.14,-104.8202,"indpak",4
+"Anchorage, AK","AK",61.2181,-149.9003,"indpak",3.66666666666667
+"Honolulu, HI","HI",21.3069,-157.8583,"indpak",3.86666666666667

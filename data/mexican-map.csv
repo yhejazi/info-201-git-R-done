@@ -1,0 +1,51 @@
+"most.pop.city","states","lat","long","food.type","mean.rating"
+"Birmingham, AL","AL",33.5207,-86.8025,"mexican",3.8
+"Phoenix, AZ","AZ",33.4484,-112.074,"mexican",4.29
+"Little Rock, AR","AR",34.7465,-92.2896,"mexican",3.9
+"Los Angeles, CA","CA",34.0522,-118.2437,"mexican",4.33
+"Denver, CO","CO",39.7392,-104.9903,"mexican",4.23
+"Bridgeport, CT","CT",41.1865,-73.1952,"mexican",3.775
+"Wilmington, DE","DE",39.7391,-75.5398,"mexican",3.74444444444444
+"Jacksonville, FL","FL",30.3322,-81.6557,"mexican",4.01
+"Atlanta, GA","GA",33.749,-84.388,"mexican",3.88
+"Boise, ID","ID",43.6187,-116.2146,"mexican",3.73
+"Chicago, IL","IL",41.8781,-87.6298,"mexican",4.22
+"Indianapolis, IN","IN",39.7684,-86.1581,"mexican",4.24
+"Des Moines, IA","IA",41.6005,-93.6091,"mexican",3.93
+"Wichita, KS","KS",37.6872,-97.3301,"mexican",3.97
+"Louisville, KY","KY",38.2527,-85.7585,"mexican",4.12
+"New Orleans, LA","LA",29.9511,-90.0715,"mexican",3.88
+"Portland, ME","ME",43.6615,-70.2553,"mexican",3.66666666666667
+"Baltimore, MD","MD",39.2904,-76.6122,"mexican",3.62
+"Boston, MA","MA",42.3601,-71.0589,"mexican",3.83
+"Detroit, MI","MI",42.3314,-83.0458,"mexican",3.9
+"Minneapolis, MN","MN",44.9778,-93.265,"mexican",3.99
+"Jackson, MS","MS",32.2988,-90.1848,"mexican",3.67857142857143
+"Kansas City, MO","MO",39.0997,-94.5786,"mexican",3.86
+"Billings, MT","MT",45.7833,-108.5007,"mexican",3.10714285714286
+"Omaha, NE","NE",41.2524,-95.998,"mexican",3.79
+"Las Vegas, NV","NV",36.1699,-115.1398,"mexican",4.31
+"Manchester, NH","NH",42.9956,-71.4548,"mexican",3.71739130434783
+"Newark, NJ","NJ",40.7357,-74.1724,"mexican",3.20454545454545
+"Albuquerque, NM","NM",35.0853,-106.6056,"mexican",4.07
+"New York City, NY","NY",40.7128,-74.0059,"mexican",4.18
+"Charlotte, NC","NC",35.2271,-80.8431,"mexican",4.02
+"Fargo, ND","ND",46.8772,-96.7898,"mexican",3.11428571428571
+"Columbus, OH","OH",39.9612,-82.9988,"mexican",4.03
+"Oklahoma City, OK","OK",35.4676,-97.5164,"mexican",4.02
+"Portland, OR","OR",45.5231,-122.6765,"mexican",4.26
+"Philadelphia, PA","PA",39.9526,-75.1652,"mexican",4.2
+"Providence, RI","RI",41.824,-71.4128,"mexican",3.90540540540541
+"Columbia, SC","SC",34.0007,-81.0348,"mexican",3.74
+"Sioux Falls, SD","SD",42.5446,-96.7311,"mexican",3.56944444444444
+"Memphis, TN","TN",35.1495,-90.049,"mexican",3.85
+"Houston, TX","TX",29.7604,-95.3698,"mexican",4.16
+"Salt Lake City, UT","UT",40.7608,-111.891,"mexican",4.06
+"Burlington, VT","VT",44.4759,-73.2121,"mexican",3.13636363636364
+"Virginia Beach, VA","VA",36.8529,-75.978,"mexican",3.73
+"Seattle, WA","WA",47.6062,-122.3321,"mexican",4.13
+"Charleston, WV","WV",38.3498,-81.6326,"mexican",3.475
+"Milwaukee, WI","WI",43.0389,-87.9065,"mexican",3.86
+"Cheyenne, WY","WY",41.14,-104.8202,"mexican",3.125
+"Anchorage, AK","AK",61.2181,-149.9003,"mexican",3.57291666666667
+"Honolulu, HI","HI",21.3069,-157.8583,"mexican",3.8

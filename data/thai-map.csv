@@ -1,0 +1,51 @@
+"most.pop.city","states","lat","long","food.type","mean.rating"
+"Birmingham, AL","AL",33.5207,-86.8025,"thai",4.11111111111111
+"Phoenix, AZ","AZ",33.4484,-112.074,"thai",3.97
+"Little Rock, AR","AR",34.7465,-92.2896,"thai",3.875
+"Los Angeles, CA","CA",34.0522,-118.2437,"thai",4.04
+"Denver, CO","CO",39.7392,-104.9903,"thai",3.82
+"Bridgeport, CT","CT",41.1865,-73.1952,"thai",3.85714285714286
+"Wilmington, DE","DE",39.7391,-75.5398,"thai",3.8125
+"Jacksonville, FL","FL",30.3322,-81.6557,"thai",3.95161290322581
+"Atlanta, GA","GA",33.749,-84.388,"thai",3.54
+"Boise, ID","ID",43.6187,-116.2146,"thai",3.95
+"Chicago, IL","IL",41.8781,-87.6298,"thai",4.11
+"Indianapolis, IN","IN",39.7684,-86.1581,"thai",3.96296296296296
+"Des Moines, IA","IA",41.6005,-93.6091,"thai",3.95833333333333
+"Wichita, KS","KS",37.6872,-97.3301,"thai",4
+"Louisville, KY","KY",38.2527,-85.7585,"thai",3.92307692307692
+"New Orleans, LA","LA",29.9511,-90.0715,"thai",3.6875
+"Portland, ME","ME",43.6615,-70.2553,"thai",4.02631578947368
+"Baltimore, MD","MD",39.2904,-76.6122,"thai",3.58823529411765
+"Boston, MA","MA",42.3601,-71.0589,"thai",3.79
+"Detroit, MI","MI",42.3314,-83.0458,"thai",3.73
+"Minneapolis, MN","MN",44.9778,-93.265,"thai",3.76
+"Jackson, MS","MS",32.2988,-90.1848,"thai",3.91666666666667
+"Kansas City, MO","MO",39.0997,-94.5786,"thai",3.88235294117647
+"Billings, MT","MT",45.7833,-108.5007,"thai",4
+"Omaha, NE","NE",41.2524,-95.998,"thai",3.78571428571429
+"Las Vegas, NV","NV",36.1699,-115.1398,"thai",4.11
+"Manchester, NH","NH",42.9956,-71.4548,"thai",4
+"Newark, NJ","NJ",40.7357,-74.1724,"thai",3.60714285714286
+"Albuquerque, NM","NM",35.0853,-106.6056,"thai",3.93478260869565
+"New York City, NY","NY",40.7128,-74.0059,"thai",4.04
+"Charlotte, NC","NC",35.2271,-80.8431,"thai",3.70833333333333
+"Fargo, ND","ND",46.8772,-96.7898,"thai",3.5
+"Columbus, OH","OH",39.9612,-82.9988,"thai",3.61666666666667
+"Oklahoma City, OK","OK",35.4676,-97.5164,"thai",4.03225806451613
+"Portland, OR","OR",45.5231,-122.6765,"thai",4.26
+"Philadelphia, PA","PA",39.9526,-75.1652,"thai",3.91
+"Providence, RI","RI",41.824,-71.4128,"thai",3.84375
+"Columbia, SC","SC",34.0007,-81.0348,"thai",3.5
+"Sioux Falls, SD","SD",42.5446,-96.7311,"thai",-1
+"Memphis, TN","TN",35.1495,-90.049,"thai",3.85714285714286
+"Houston, TX","TX",29.7604,-95.3698,"thai",3.64285714285714
+"Salt Lake City, UT","UT",40.7608,-111.891,"thai",3.94871794871795
+"Burlington, VT","VT",44.4759,-73.2121,"thai",3.57142857142857
+"Virginia Beach, VA","VA",36.8529,-75.978,"thai",3.9047619047619
+"Seattle, WA","WA",47.6062,-122.3321,"thai",4.02
+"Charleston, WV","WV",38.3498,-81.6326,"thai",4.5
+"Milwaukee, WI","WI",43.0389,-87.9065,"thai",3.79545454545455
+"Cheyenne, WY","WY",41.14,-104.8202,"thai",3.64285714285714
+"Anchorage, AK","AK",61.2181,-149.9003,"thai",3.77586206896552
+"Honolulu, HI","HI",21.3069,-157.8583,"thai",3.92045454545455
