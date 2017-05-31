@@ -17,7 +17,7 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                                 radioButtons(inputId = "radio", label = "Food Categories",
                                              choices = list("Chinese" = "chinese", "Japanese" = "japanese", "Korean" = "korean", "Thai" = "thai",
                                                             "Mediterranean" = "mediterranean", "Indian" = "indpak", "Mexican" = "mexican",
-                                                            "American (Traditional)" = "tradamerican"),
+                                                            "American (Traditional)" = "tradamerican", "Italian" = "italian"),
                                              selected = "chinese")
                                 
                                 
