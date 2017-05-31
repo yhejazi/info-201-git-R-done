@@ -5,7 +5,7 @@ library(shinythemes)
 shinyUI(fluidPage(theme = shinytheme("united"),
   (navbarPage('INFO 201 Project',
                    tabPanel("Project Description",
-                        includeMarkdown("ProjectDocumentation.md")    
+                        includeMarkdown("./ProjectDescription/ProjectDocumentation.md")    
                             ),
                    
                    tabPanel('Word Cloud',
@@ -61,7 +61,7 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                                )
                              )),
               tabPanel("Meet The Team",
-                       includeMarkdown("MeetTheTeam.rmd")    
+                       includeMarkdown("./MeetTeam/MeetTheTeam.rmd")    
               )
 )
 )
