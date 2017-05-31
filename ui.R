@@ -42,6 +42,24 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                               )
                               
                             )),
+                    tabPanel('Map',
+                             titlePanel('Restaurant Ratings Map'),
+                             sidebarLayout(
+                               sidebarPanel(
+                                 selectInput('food', label = 'Select Cuisine',
+                                             choices = list('American' = 'tradamerican',
+                                                            'Mexican' = 'mexican',
+                                                            'Italian' = 'italian',
+                                                            'Mediterranean' = 'mediterranean',
+                                                            'Chinese' = 'chinese',
+                                                            'Japanese' = 'japanese',
+                                                            'Indian' = 'indpak'), 
+                                             selected = 'tradamerican')
+                               ),
+                               mainPanel(
+                                 plotlyOutput('map')
+                               )
+                             )),
               tabPanel("Meet The Team",
                        includeMarkdown("MeetTheTeam.rmd")    
               )

@@ -7,6 +7,7 @@ library(SnowballC)
 library(wordcloud)
 source("./scripts/wordCloud.R")
 source("./scripts/stackedBar.R")
+source("./scripts/map.R")
 
 shinyServer(function(input, output) {
   output$wordcloud <- renderPlot({
@@ -19,4 +20,7 @@ shinyServer(function(input, output) {
     return(MakeStackedBar())
   })
   
+  output$map <- renderPlot({
+    return(MakeMap(input$food))
+  })
 })

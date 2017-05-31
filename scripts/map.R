@@ -6,7 +6,7 @@ library(plotly)
 library(stringr)
 
 MakeMap <- function(food.type.input) {
-  pop.city.US <- read.csv(file = 'most-pop-cities.csv', stringsAsFactors = FALSE)
+  pop.city.US <- read.csv(file = './scripts/most-pop-cities.csv', stringsAsFactors = FALSE)
   most.pop.city <- pop.city.US$most.pop.city
   
   AvgRating <- function(food.type, city) {
