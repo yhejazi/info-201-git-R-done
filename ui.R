@@ -61,6 +61,16 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                                  plotlyOutput('map')
                                )
                              )),
+              
+              tabPanel("Scatter",
+                       titlePanel("Scatter of Average Price to Average Rating"),
+                       
+                       # Show a plot of the generated distribution
+                       mainPanel(
+                         plotlyOutput("scatter")
+                       )
+              ),
+              
               tabPanel("Meet The Team",
                        includeMarkdown("./MeetTeam/MeetTheTeam.rmd")    
               )
