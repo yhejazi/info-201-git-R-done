@@ -1,6 +1,7 @@
 library(shiny)
 library(plotly)
 library(shinythemes)
+library(markdown)
 
 shinyUI(fluidPage(theme = shinytheme("united"),
   (navbarPage('INFO 201 Project',
@@ -77,7 +78,7 @@ shinyUI(fluidPage(theme = shinytheme("united"),
               ),
               
               tabPanel("Meet The Team",
-                       includeMarkdown("./MeetTeam/MeetTheTeam.rmd")    
+                       includeMarkdown("./MeetTeam/MeetTheTeam.md")    
               )
 )
 )

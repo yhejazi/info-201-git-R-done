@@ -41,7 +41,7 @@ After defining our nine food types, we went to work finding trends based on a nu
 
 Because of the large nature of the data, we decided to focus on data from the top 150 resturants in Washington state for each food category. We ended up creating three interactive charts which can be found on the tabs at the top of this page.
 
-The first chart is a wordcloud that shows the most popular words in each resturant name seperated by category.  
+<!-- The first chart is a wordcloud that shows the most popular words in each resturant name seperated by category.  
 The second chart is a stacked bar chart that shows the   
 The third chart is a scatterplot that shows   
 
@@ -49,4 +49,4 @@ The third chart is a scatterplot that shows
 We found that .
 
 
-### Why does it matter?
+### Why does it matter? -->
