@@ -5,8 +5,9 @@ library(shinythemes)
 shinyUI(fluidPage(theme = shinytheme("united"),
   (navbarPage('INFO 201 Project',
                    tabPanel("Project Description",
+                        mainPanel(
                         includeMarkdown("./ProjectDescription/ProjectDocumentation.md")    
-                            ),
+                            )),
                    
                    tabPanel('Word Cloud',
                             titlePanel("Word Cloud"),
