@@ -59,7 +59,8 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                                              selected = 'chinese')
                                ),
                                mainPanel(
-                                 plotlyOutput('map')
+                                 plotlyOutput('map'),
+                                 includeMarkdown('./GraphDescriptions/map-analysis.md')
                                )
                              )),
               
