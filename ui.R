@@ -6,7 +6,7 @@ library(markdown)
 # source("./scripts/CityMap.R")
 
 shinyUI(fluidPage(theme = shinytheme("united"),
-  (navbarPage('INFO 201 Project',
+  (navbarPage('U.S. Restaurant Diversity',
                    tabPanel("Project Description",
                         mainPanel(
                         includeMarkdown("./ProjectDescription/ProjectDocumentation.md")    
@@ -50,7 +50,7 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                               )
                               
                             )),
-                    tabPanel('Map',
+                    tabPanel('Rating Trends Map',
                              titlePanel('Restaurant Ratings Map'),
                              sidebarLayout(
                                sidebarPanel(
@@ -71,7 +71,7 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                                )
                              )),
               
-              tabPanel("Scatter",
+              tabPanel("Price vs. Rating",
                        titlePanel("Scatter of Average Price to Average Rating"),
                        
                        # Show a plot of the generated distribution
