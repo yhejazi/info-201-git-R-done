@@ -4,19 +4,21 @@ library(jsonlite)
 library(plotly)
 library(ggplot2)
 
-#Create a stacked bar chart that has the number of restaurants of a specific type and 
-#uses price range as a stacked variable depending on given city
+#Returns a stacked bar chart that has the number of restaurants of a specific type within given city
+#and uses price range as a stacked variable
 MakeStackedBar <- function(location) {
   cityname <- str_replace_all(location, "[^[:alnum:]]", "") #take out punctuation to get cityname for file
-  city_data <- read.csv(file = paste0("./data/", cityname, "PriceData.csv"))
+  city_data <- read.csv(file = paste0("./data/", cityname, "PriceData.csv")) #find file associated with city
   
-  p <- plot_ly(city_data, x = ~type, y = ~one, type = 'bar', name = "Inexpensive") %>%
+  #Create stacked bar chart with price levels as traces
+  stacked <- plot_ly(city_data, x = ~type, y = ~one, type = 'bar', name = "Inexpensive") %>%
     add_trace(y = ~city_data$two, name = 'Moderate') %>%
     add_trace(y = ~city_data$three, name = 'Pricey') %>%
     add_trace(y = ~city_data$four, name = 'Ultra High-End') %>%
-    layout(title = paste0(location, ": # Restaurants by Type w/Price Level"), xaxis = list(title = 'Type of Food'), yaxis = list(title = 'Count'),
+    layout(title = paste0(location, ": # Restaurants by Type w/Price Level"), 
+           xaxis = list(title = 'Type of Food'), yaxis = list(title = 'Count'),
            barmode = 'stack', margin = list(b = 100))
-  return (p)
+  return (stacked)
 }
 
 #Below was the inital code to gather and export city data as .csv files for easy access
