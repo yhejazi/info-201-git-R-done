@@ -73,7 +73,8 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                        
                        # Show a plot of the generated distribution
                        mainPanel(
-                         plotlyOutput("scatter")
+                         plotlyOutput("scatter"),
+                         includeMarkdown("./GraphDescriptions/scatter-description.md")
                        )
               ),
               
