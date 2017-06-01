@@ -8,27 +8,27 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                         includeMarkdown("./ProjectDescription/ProjectDocumentation.md")    
                             ),
                    
-                   tabPanel('Word Cloud',
-                            titlePanel("Yelp stuff"),
-                            
-                            sidebarLayout(
-                              
-                              sidebarPanel(
-                                radioButtons(inputId = "radio", label = "Food Categories",
-                                             choices = list("Chinese" = "chinese", "Japanese" = "japanese", "Korean" = "korean", "Thai" = "thai",
-                                                            "Mediterranean" = "mediterranean", "Indian" = "indpak", "Mexican" = "mexican",
-                                                            "American (Traditional)" = "tradamerican", "Italian" = "italian"),
-                                             selected = "chinese")
-                                
-                                
-                              ),
-                              # Plots the data and writes a description of the page.
-                              mainPanel(
-                                plotOutput("wordcloud")
-                                
-                              )
-                            )
-                   ),
+                   # tabPanel('Word Cloud',
+                   #          titlePanel("Yelp stuff"),
+                   #          
+                   #          sidebarLayout(
+                   #            
+                   #            sidebarPanel(
+                   #              radioButtons(inputId = "radio", label = "Food Categories",
+                   #                           choices = list("Chinese" = "chinese", "Japanese" = "japanese", "Korean" = "korean", "Thai" = "thai",
+                   #                                          "Mediterranean" = "mediterranean", "Indian" = "indpak", "Mexican" = "mexican",
+                   #                                          "American (Traditional)" = "tradamerican", "Italian" = "italian"),
+                   #                           selected = "chinese")
+                   #              
+                   #              
+                   #            ),
+                   #            # Plots the data and writes a description of the page.
+                   #            mainPanel(
+                   #              plotOutput("wordcloud")
+                   #              
+                   #            )
+                   #          )
+                   # ),
                    tabPanel('StackedBar',
                             titlePanel('Stacked Bar Chart'),
                             sidebarLayout(
