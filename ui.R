@@ -40,7 +40,8 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                                             selected = "Seattle, WA")
                               ),
                               mainPanel(
-                                plotlyOutput("stackedBar"), uiOutput("stackedBarFindings")
+                                plotlyOutput("stackedBar"),
+                                includeMarkdown('./GraphDescriptions/stackedbar-analysis.md')
                               )
                               
                             )),
