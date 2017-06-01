@@ -41,7 +41,9 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                                 uiOutput("stackedBarSideText"),
                                 radioButtons(inputId = 'stackedInputCity', label = "Select a Major City", 
                                             choices = list("Seattle, WA", "San Francisco, CA", 
-                                                           "New York, NY", "Chicago, IL", "Houston, TX"),
+                                                           "New York, NY", "Chicago, IL", "Houston, TX", 
+                                                           "Atlanta, GA", "Boston, MA", "Denver, CO", "Los Angeles, CA",
+                                                           "Phoenix, AZ", "Portland, OR", "Salt Lake City, UT"),
                                             selected = "Seattle, WA")
                               ),
                               mainPanel(
