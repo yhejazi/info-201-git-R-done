@@ -1,7 +1,4 @@
 library(shiny)
-library(dplyr)
-library(httr)
-library(jsonlite)
 library(tm)
 library(SnowballC)
 library(wordcloud)
