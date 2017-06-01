@@ -21,12 +21,12 @@ Yelp is extremely popular and by the end of Q1 2017 there have been more than 12
 ![](https://media.npr.org/assets/img/2014/05/22/yelp-1_wide-c07e41ca11053d2d7c30aafa94556b2ea5e53f5f.jpg?s=800)  
 
 
-The Yelp API that we worked with provided us with a variety of data sets that included restaurant names, food categories, average price, locations, average rating, and resturant name. Because the data was so large, we decided to only focus on certain resutrants in each state that were sorted by what Yelp refers to as "best_match".
+The Yelp API that we worked with provided us with a variety of data sets that included restaurant names, food categories, average price, locations, average rating, and restaurant name. Because the data was so large, we decided to only focus on certain restaurant in each state that were sorted by what Yelp refers to as "best_match".
 
 This means that the rating sort is not strictly sorted by the rating value, but by an adjusted rating value that takes into account the number of ratings, similar to a [Bayesian average](https://en.wikipedia.org/wiki/Bayesian_average). This is so a business with 1 rating of 5 stars doesn’t immediately jump to the top.
 
 ### What Did We Do?
-The category for each resturant was determined by the tags that yelp users and bussiness owners place on the Yelp website or app. Certain resturants can contain more than one tag. For our project, we chose nine food types that we believed were the most prevalent and popular in the United States. These resturants inclue:
+The category for each restaurant was determined by the tags that yelp users and business owners place on the Yelp website or app. Certain restaurants can contain more than one tag. For our project, we chose ten food types that we believed were the most prevalent and popular in the United States. These restaurants include:
 * American   
 * Italian   
 * Mexican  
@@ -36,11 +36,12 @@ The category for each resturant was determined by the tags that yelp users and b
 * Thai  
 * Mediterranean  
 * German  
+* Chinese
 
 Once we determined our food categories, we decided to make variety of charts that can be found at the top of the page. These charts include:
-* A **Wordcloud** that compare the differences in how restaurants of various ethnicity choose the names of their restaurants in Washington State
-* A **Stacked Bargraph** that compates resturant type by price level in the top 5 most populated states
-* A **Map** that shows the mean resturant rating by type in each state
+* A **Word Cloud** that compare the differences in how restaurants of various ethnicity choose the names of their restaurants in Washington State
+* A **Stacked Bar graph** that compares restaurant type by price level in major U.S. cities
+* A **Map** that shows the mean restaurant rating by type in each state
 * A **Scatter Plot** that shows where each type of food lands on a scale of ratings vs average price
 
 ### Who Is Our Audience?
