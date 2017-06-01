@@ -6,6 +6,8 @@ library(plotly)
 library(tidyr)
 
 MakeScatter<- function() {
+  # Write csv file for Yelp API data
+  
   # res <- POST("https://api.yelp.com/oauth2/token",
   #             body = list(grant_type = "client_credentials",
   #                         client_id = "iXvoLjOm6wir50Rq0XrwZg",
