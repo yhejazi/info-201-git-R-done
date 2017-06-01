@@ -33,13 +33,14 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                             titlePanel('Type w/Price Levels by City'),
                             sidebarLayout(
                               sidebarPanel(
+                                uiOutput("stackedBarSideText"),
                                 radioButtons(inputId = 'stackedInputCity', label = "Select a State", 
                                             choices = list("Seattle, WA", "San Francisco, CA", 
                                                            "New York, NY", "Chicago, IL", "Houston, TX"),
                                             selected = "Seattle, WA")
                               ),
                               mainPanel(
-                                plotlyOutput("stackedBar")
+                                plotlyOutput("stackedBar"), uiOutput("stackedBarFindings")
                               )
                               
                             )),

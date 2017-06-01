@@ -25,4 +25,24 @@ shinyServer(function(input, output) {
   output$scatter <- renderPlotly({
   return(MakeScatter())
   })
+  
+  output$stackedBarSideText <- renderUI(
+    HTML("<p> After selecting one of the major cities listed, the stacked bar chart will display the the 
+         top 50 restaurants of each category and how they compare to one another in distribution of
+         price levels.</p>")
+    )
+  
+  output$stackedBarFindings <- renderUI(
+    HTML("<p>These charts make it easier to compare which types of food most likely fall 
+         within certain price levels and how this differs across major U.S. cities.</p>
+         <p>After comparing the various stacked bar charts created based on different cities, 
+         some things we noticed were: </p>
+         <ul>
+         <li>Japanese and Italian are more likely to have restaurants in the Ultra High-End price level</li>
+         <li>In general, Moderate is the most dominate price level across all listed types of food</li>
+         <li>New York has the most similar results when comparing the of number of restaurants per category and each type's price levels</li>
+         <li>San Francisco, CA appears to have the most restaurants in the Ultra High-End price range </li>
+         <li>German is one of the least commonly served food at restaurants</li>
+         </ul>")
+    )
 })
