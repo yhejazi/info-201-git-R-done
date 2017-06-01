@@ -18,7 +18,7 @@ shinyServer(function(input, output) {
   })
   
   output$stackedBar <- renderPlotly({
-    return(MakeStackedBar())
+    return(MakeStackedBar(input$stackedInputCity))
   })
   
   output$map <- renderPlotly({
