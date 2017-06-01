@@ -1,6 +1,6 @@
 # Project Description ![](http://screenwerk.com/wpn/media/Screen-Shot-2013-02-19-at-7.06.02-AM.png)
 
-#### **Created by:** Andrea Jorge, Yasime Hejazi, Julia Zaratan, Katie Breland, and Kuo Hong  
+#### **Created by:** Andrea Jorge, Yasmine Hejazi, Julia Zaratan, Katie Breland, and Kuo Hong  
 
 ##### See our work on [GitHub!] (https://github.com/yhejazi/info-201-git-R-done)   
 
@@ -21,7 +21,7 @@ Yelp is extremely popular and by the end of Q1 2017 there have been more than 12
 ![](https://media.npr.org/assets/img/2014/05/22/yelp-1_wide-c07e41ca11053d2d7c30aafa94556b2ea5e53f5f.jpg?s=800)  
 
 
-The Yelp api that we worked with provided us with a variety of data sets that included restaurant names, food categories, average price, locations, average rating, and resturant name. Because the data was so large, we decided to only focus on certain resutrants in each state that were sorted by what Yelp refers to as "best_match". 
+The Yelp API that we worked with provided us with a variety of data sets that included restaurant names, food categories, average price, locations, average rating, and resturant name. Because the data was so large, we decided to only focus on certain resutrants in each state that were sorted by what Yelp refers to as "best_match". 
 
 This means that the rating sort is not strictly sorted by the rating value, but by an adjusted rating value that takes into account the number of ratings, similar to a [Bayesian average](https://en.wikipedia.org/wiki/Bayesian_average). This is so a business with 1 rating of 5 stars doesn’t immediately jump to the top.
 
@@ -42,7 +42,7 @@ Once we determined our food categories, we decided to make variety of charts tha
 * A **Stacked Bargraph** that compates resturant type by price level in the top 5 most populated states
 * A **Map** that shows the mean resturant rating by type in each state
 * A **Scatter Plot** that shows where each type of food lands on a scale of ratings vs average price
-* A **Map** and a **Table** that shows the highest rated food type in each of the most populated cities in each state
+
 
 <!-- The first chart is a wordcloud that shows the most popular words in each resturant name seperated by category.  
 The second chart is a stacked bar chart that shows the   

@@ -6,6 +6,7 @@ source("./scripts/wordCloud.R")
 source("./scripts/stackedBar.R")
 source("./scripts/map.R")
 source("./scripts/scatter.R")
+source("./scripts/CityMap.R")
 
 shinyServer(function(input, output) {
   output$wordcloud <- renderPlot({
@@ -30,7 +31,7 @@ shinyServer(function(input, output) {
     return(MakeCityMap())
   })
   
-  output$mytable <- renderDataTable({favorites3})
+  # output$mytable <- renderDataTable({favorites3})
   
   output$stackedBarSideText <- renderUI(
     HTML("<p> After selecting one of the major cities listed, the stacked bar chart will display the the 

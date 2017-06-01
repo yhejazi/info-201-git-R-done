@@ -3,6 +3,8 @@ library(plotly)
 library(shinythemes)
 library(markdown)
 
+# source("./scripts/CityMap.R")
+
 shinyUI(fluidPage(theme = shinytheme("united"),
   (navbarPage('INFO 201 Project',
                    tabPanel("Project Description",
@@ -79,17 +81,17 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                        )
               ),
               
-              tabPanel("Breaking it Up By City",
-                       titlePanel("Breaking it Up By City"),
-                       # Show a plot of the generated distribution
-                         includeMarkdown("./GraphDescriptions/CityMapDescription.md"),
-                         plotlyOutput("CityMap"),
-                         dataTableOutput('mytable'),
-                          includeMarkdown("./GraphDescriptions/Inferences.md")
-                         
-                       
-                       
-              ),
+              # tabPanel("Breaking it Up By City",
+              #          titlePanel("Breaking it Up By City"),
+              #          # Show a plot of the generated distribution
+              #            includeMarkdown("./GraphDescriptions/CityMapDescription.md"),
+              #            plotlyOutput("CityMap"),
+              #            dataTableOutput('mytable'),
+              #             includeMarkdown("./GraphDescriptions/Inferences.md")
+              #            
+              #          
+              #          
+              # ),
               tabPanel("Meet The Team",
                        includeMarkdown("./MeetTeam/MeetTheTeam.md")    
               )
