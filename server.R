@@ -26,6 +26,12 @@ shinyServer(function(input, output) {
   return(MakeScatter())
   })
   
+  output$CityMap <- renderPlotly({
+    return(MakeCityMap())
+  })
+  
+  output$mytable <- renderDataTable({favorites3})
+  
   output$stackedBarSideText <- renderUI(
     HTML("<p> After selecting one of the major cities listed, the stacked bar chart will display the the 
          top 50 restaurants of each category and how they compare to one another in distribution of

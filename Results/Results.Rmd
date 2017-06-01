@@ -1,0 +1,83 @@
+---
+title: "Highest Rated Foods"
+output: html_document
+---
+Overall our data reavealed a number of interesting insights regarding the types of food favored in different areas of the United States. One such insight gained was the specific type of food that each state favored the most based on the top rated resturants for each category in the most populated city of that state. *(For example, Mediterranean food gained the highest average ratings in Seattle)*.
+
+The map below shows which state rated which type of food the highest based on the **most populated city** of that state (excluding German beacause there were too few options to show). The colors are seperated by cuisine type while the size of the bubbles represents the overall average rating. The table beneath it similarly shows which food was rated the highest by state shown in alphabetical order.   
+
+```{r, echo=FALSE, include=FALSE, cache=FALSE}
+#adds in needed packages
+library("ggplot2")
+library("dplyr")
+library('jsonlite')
+library('httr')
+library('knitr')
+library('plotly')
+library('stringr')
+```
+```{r cars, echo=FALSE}
+#sorts the data from a csv file and selects the needed columns
+favorites<- read.csv("./favorites.csv")
+favorites2<-favorites%>%
+  select(State, Favorite, most.pop.city, lat, long, Rating)
+
+#creates a map that has markers that are colored by the type of food and which are sized by that type of food popularity
+MakeChart<- function(data){
+  g <- list(
+    scope = 'usa',
+    projection = list(type = 'albers usa'),
+    showland = TRUE,
+    landcolor = toRGB("black"),
+    subunitwidth = 1,
+    countrywidth = 1,
+    subunitcolor = toRGB("white"),
+    countrycolor = toRGB("white")
+  )
+  
+  #Fills in the details of the map which include shooting locations, number of people injured, and number of people killed. The colors of the map were chosen to communicate the serious tone of the  data. 
+  p <- plot_geo(data, locationmode = 'USA-states', lat = ~lat, lon = ~long) %>%
+    add_markers(
+      x = ~long, y = ~lat, size = ~Rating, color = ~Favorite, colors = 'Paired', opacity = 1,
+      hoverinfo = "text",
+      text = ~paste(favorites$Favorite, "<br />", favorites$most.pop.city,
+                    "<br />", favorites$State)
+      
+    ) %>%
+    
+    #Adds a title to the map
+    layout(title = 'Highest Rated Food Type by Highest Populated City per State', geo = g)
+
+return(p)
+}
+#calls map function and passes it the favorites2 data frame
+MakeChart(favorites2)
+
+```
+
+
+```{r, results='asis', echo=FALSE}
+#summarizes the favorites data and prints it as a table
+favorites<- read.csv("./favorites.csv")
+favorites<-favorites%>%
+  select(State, Favorite, most.pop.city)
+
+
+knitr::kable(favorites, format = "markdown")
+
+```
+
+##Inferences  
+One interesting find from this chart is the fact that no state had American as it's top rated food type. This could possibly be because a majority of American food is classified as fast food which tends to be rated lower or not at all.  
+
+Similarly we found that in general the types of food that tend to be rated the highest throughout the entire United States are Italian and Japenese cuisine, and seperating the country by state also reflects that trend. Mediteranean food was also shown to be favored in **13** of the **50** states which our group found to be suprising, especially because Seattle's own top rated food choice was Mediteranean. 
+
+Predictably, Mexican food seemed to be the most popular in the southwest united states while Italian was popular in the northeast united states. Japeneses food was also rated highly in Las Vegas and in Hawaii which similarly did not come as a suprise becuase Las Vegas is known for it's high quality resturant scene and becuase Hawaii is known for it's fresh fish centered culture, although it did end up being suprising that Seattle did not rate Japenese food as it's highest overall rated food becuase Seattle is known for having a strong Japenese cultural influence. This goes to show that quantity or popularity of a certain cuisine in a resturant does not nessesarily mean that that cuisine gets the highest ratings. 
+
+Something that came across as suprising was the fact that the highest average rating for any city (which was 5 stars) ended up being a tie for Korean food in *Little Rock, Arkansas* and Korean food in *Jackson, Mississippi*. This is likely due to the fact that there are not a signifigant number of Korean resturants in these areas which means that the ones that are present tend to be upscale specialty type resurants which encourage higher ratings.  
+
+
+make  
+
+
+

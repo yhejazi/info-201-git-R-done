@@ -1,7 +1,8 @@
 # Project Description ![](http://screenwerk.com/wpn/media/Screen-Shot-2013-02-19-at-7.06.02-AM.png)
 
-#### Created by: Andrea Jorge, Yasime Hejazi, Julia Zaratan, Katie Breland, and Kuo Hong  
+#### **Created by:** Andrea Jorge, Yasime Hejazi, Julia Zaratan, Katie Breland, and Kuo Hong  
 
+##### See our work on [GitHub!] (https://github.com/yhejazi/info-201-git-R-done)   
 
 ### What is Yelp?
 Yelp is essentially an online application that connects customers to local businesses by allowing them to write reviews and give ratings. Yelp's Chief Executive Officer and Co-founder, [Jeremy Stoppelman](https://www.yelpblog.com/2013/01/introducing-lives), describes Yelp's mission as a way to:
@@ -20,12 +21,12 @@ Yelp is extremely popular and by the end of Q1 2017 there have been more than 12
 ![](https://media.npr.org/assets/img/2014/05/22/yelp-1_wide-c07e41ca11053d2d7c30aafa94556b2ea5e53f5f.jpg?s=800)  
 
 
-The Yelp api that we worked with provided us with the top 50 restaurants in the most populated city in each state sorted by what Yelp refers to as "best_match."
+The Yelp api that we worked with provided us with a variety of data sets that included restaurant names, food categories, average price, locations, average rating, and resturant name. Because the data was so large, we decided to only focus on certain resutrants in each state that were sorted by what Yelp refers to as "best_match". 
 
 This means that the rating sort is not strictly sorted by the rating value, but by an adjusted rating value that takes into account the number of ratings, similar to a [Bayesian average](https://en.wikipedia.org/wiki/Bayesian_average). This is so a business with 1 rating of 5 stars doesn’t immediately jump to the top.
 
-### What did we do?
-For our project we focused on restaurants that are categorized by 9 distinct food types which include:  
+### What Did We Do?
+The category for each resturant was determined by the tags that yelp users and bussiness owners place on the Yelp website or app. Certain resturants can contain more than one tag. For our project, we chose nine food types that we believed were the most prevalent and popular in the United States. These resturants inclue: 
 * American   
 * Italian   
 * Mexican  
@@ -36,10 +37,12 @@ For our project we focused on restaurants that are categorized by 9 distinct foo
 * Mediterranean  
 * German  
 
-We chose these nine food types because of their prevalence and popularity in the United States.
-After defining our nine food types, we went to work finding trends based on a number of variables such as average price rating (which Yelp defines on a scale of 1 to 4 "$"), number of total reveiws, location, and resturant name.  
-
-Because of the large nature of the data, we decided to focus on data from the top 150 resturants in Washington state for each food category. We ended up creating three interactive charts which can be found on the tabs at the top of this page.
+Once we determined our food categories, we decided to make variety of charts that can be found at the top of the page. These charts include:
+* A **Wordcloud** that compare the differences in how restaurants of various ethnicity choose the names of their restaurants in Washington State
+* A **Stacked Bargraph** that compates resturant type by price level in the top 5 most populated states
+* A **Map** that shows the mean resturant rating by type in each state
+* A **Scatter Plot** that shows where each type of food lands on a scale of ratings vs average price
+* A **Map** and a **Table** that shows the highest rated food type in each of the most populated cities in each state
 
 <!-- The first chart is a wordcloud that shows the most popular words in each resturant name seperated by category.  
 The second chart is a stacked bar chart that shows the   

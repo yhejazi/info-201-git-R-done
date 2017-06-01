@@ -13,14 +13,14 @@ All the data that we worked with in our project can be found at:
 https://www.yelp.com/developers/documentation/v3 
 
 The data was gathered by [Yelp](https://www.yelp.com/sf) which was founded in 2004 as a way to connect people with local businesses.
-The data stems from users who choose to give the businesses they visit a rating or review. Businesses have an average rating score that ranges from 0 to 5 stars, and business owners have the option to setup a free account with Yelp in order to post photos and promote their business. 
+The data stems from users who choose to give the businesses they visit a rating or review. Businesses have an average rating score that ranges from **0 to 5** stars, and business owners have the option to setup a free account with Yelp in order to post photos and promote their business. 
 
-Yelp is extremely popular and by the end of Q1 2017 there have been more than 127 million reviews written by users. According to the [Yelp website](https://www.yelp.com/about) Yelp had a monthly average of 26 million unique visitors who visited Yelp via the Yelp app and 73 million unique visitors who visited Yelp via mobile web in Q1 2017. Only 19% of all businesses that were reviewed by Yelp came from restaurants.  
+Yelp is extremely popular and by the end of Q1 2017 there have been more than 127 million reviews written by users. According to the [Yelp website](https://www.yelp.com/about) Yelp had a monthly average of **26 million unique visitors** who visited Yelp via the Yelp app and 73 million unique visitors who visited Yelp via mobile web in Q1 2017. Only 19% of all businesses that were reviewed by Yelp came from restaurants.  
 
 ![](https://media.npr.org/assets/img/2014/05/22/yelp-1_wide-c07e41ca11053d2d7c30aafa94556b2ea5e53f5f.jpg?s=1400)  
 
 
-The Yelp api that we worked with provided us with the top 50 restaurants in the most populated city in each state sorted by what Yelp refers to as "best_match." 
+The Yelp api that we worked with provided us with the top 50 restaurants in the most populated cities in each state sorted by what Yelp refers to as "best_match." 
 
 This means that the rating sort is not strictly sorted by the rating value, but by an adjusted rating value that takes into account the number of ratings, similar to a [Bayesian average](https://en.wikipedia.org/wiki/Bayesian_average). This is so a business with 1 rating of 5 stars doesn’t immediately jump to the top.
 
