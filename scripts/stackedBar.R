@@ -16,7 +16,7 @@ MakeStackedBar <- function(location) {
     add_trace(y = ~city_data$three, name = 'Pricey') %>%
     add_trace(y = ~city_data$four, name = 'Ultra High-End') %>%
     layout(title = paste0(location, ": # Restaurants by Type w/Price Level"), 
-           xaxis = list(title = 'Type of Food'), yaxis = list(title = 'Count'),
+           xaxis = list(title = 'Type of Food'), yaxis = list(title = 'Restaurant Count'),
            barmode = 'stack', margin = list(b = 100))
   return (stacked)
 }
