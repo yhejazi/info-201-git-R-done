@@ -21,12 +21,12 @@ Yelp is extremely popular and by the end of Q1 2017 there have been more than 12
 ![](https://media.npr.org/assets/img/2014/05/22/yelp-1_wide-c07e41ca11053d2d7c30aafa94556b2ea5e53f5f.jpg?s=800)  
 
 
-The Yelp API that we worked with provided us with a variety of data sets that included restaurant names, food categories, average price, locations, average rating, and resturant name. Because the data was so large, we decided to only focus on certain resutrants in each state that were sorted by what Yelp refers to as "best_match". 
+The Yelp API that we worked with provided us with a variety of data sets that included restaurant names, food categories, average price, locations, average rating, and resturant name. Because the data was so large, we decided to only focus on certain resutrants in each state that were sorted by what Yelp refers to as "best_match".
 
 This means that the rating sort is not strictly sorted by the rating value, but by an adjusted rating value that takes into account the number of ratings, similar to a [Bayesian average](https://en.wikipedia.org/wiki/Bayesian_average). This is so a business with 1 rating of 5 stars doesn’t immediately jump to the top.
 
 ### What Did We Do?
-The category for each resturant was determined by the tags that yelp users and bussiness owners place on the Yelp website or app. Certain resturants can contain more than one tag. For our project, we chose nine food types that we believed were the most prevalent and popular in the United States. These resturants inclue: 
+The category for each resturant was determined by the tags that yelp users and bussiness owners place on the Yelp website or app. Certain resturants can contain more than one tag. For our project, we chose nine food types that we believed were the most prevalent and popular in the United States. These resturants inclue:
 * American   
 * Italian   
 * Mexican  
@@ -43,6 +43,8 @@ Once we determined our food categories, we decided to make variety of charts tha
 * A **Map** that shows the mean resturant rating by type in each state
 * A **Scatter Plot** that shows where each type of food lands on a scale of ratings vs average price
 
+### Who Is Our Audience?
+Our targeted audience is consumers in the U.S. who are interested in the diversity of food in various locations. With our app, we hope users can explore food trends based on type, ratings, price, and location. After exploring the data, users may be able to relate it to the values, economic status, population racial diversity, cultural trends, etc. of a region/type of food.
 
 <!-- The first chart is a wordcloud that shows the most popular words in each resturant name seperated by category.  
 The second chart is a stacked bar chart that shows the   
