@@ -9,7 +9,7 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                             ),
                    
                    tabPanel('Word Cloud',
-                            titlePanel("Yelp stuff"),
+                            titlePanel("Word Cloud"),
 
                             sidebarLayout(
 
@@ -29,8 +29,8 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                               )
                             )
                    ),
-                   tabPanel('StackedBar',
-                            titlePanel('Stacked Bar Chart'),
+                   tabPanel('Type/Price',
+                            titlePanel('Type w/Price Levels by City'),
                             sidebarLayout(
                               sidebarPanel(
                                 radioButtons(inputId = 'stackedInputCity', label = "Select a State", 
