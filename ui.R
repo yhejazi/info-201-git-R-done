@@ -25,8 +25,8 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                               ),
                               # Plots the data and writes a description of the page.
                               mainPanel(
-                                plotOutput("wordcloud")
-
+                                plotOutput("wordcloud"),
+                                includeMarkdown("./GraphDescriptions/wordcloud_description.md")
                               )
                             )
                    ),
