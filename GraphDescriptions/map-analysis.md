@@ -3,6 +3,7 @@
 - The information displayed is based on **50** Yelp entries pulled from the API according to the **most populated city** in each state.
 - When testing the effect of pulling greater than 50 entries on the rating, the differences were approximately +/- 0.2 - that is, a negligible difference.
 - Ratings of **-1** denote _no restaurants_ of the selected cuisine in that city from which an average could be calculated. For example, Sioux Falls, SD contained no restaurants tagged with the category "Korean", resulting in its rating of -1.
+- We decided on a choropleth map, as opposed to a point map, in order to better see larger trends - for example, regional ones. 
 
 ## Main Findings and Analysis
 
@@ -18,4 +19,4 @@ When we decided to delve into Yelp's API, one of our first thoughts was to exami
 
 - **The West Coast**, consisting of Washington, Oregon, California, and Nevada, constantly had ratings on the higher end of the scale across most of the different types of food. As such, this could've be representative of the region's rich demographic. In 2010, the U.S. Census reported that there were a number of areas in which minorities were a large proportion of the population, and "nearly half of the West's population was minority (47 percent), numbering 33.9 million." Furthermore, nationwide, California had the largest minority population of 22.3 million, and Nevada's minority population increased at the highest rate by 78%. Therefore, the maps presented here outwardly support the West Coast's growth and status of large diversity. ([Source](https://www.census.gov/newsroom/releases/archives/2010_census/cb11-cn125.html))
 
-Of course, there are a number of extra factors that may or may not change the conclusions we've drawn, and as a result, what we think maybe isn't completely accurate. So, if just so happens that our thoughts are complete bogus compared to the actual truth - hey, at least we made some cool maps in R! 
+Of course, there are a number of extra factors that may or may not change the conclusions we've drawn, and as a result, what we think maybe isn't completely accurate. So, if just so happens that our thoughts are complete bogus compared to the actual truth - hey, at least we made some cool maps in R!

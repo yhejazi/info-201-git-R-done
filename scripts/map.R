@@ -32,15 +32,21 @@ MakeMap <- function(food.type.input) {
   )
   
   # Creates map
-  map <- plot_geo(all.ratings, locationmode= 'USA-states',lat = ~lat, lon = ~long)  %>% 
-    add_markers(
-      z = ~mean.rating, locations = ~states, colors = 'YlOrRd',
+  
+  map <- plot_geo(all.ratings, locationmode = 'USA-states') %>%
+    add_trace(
+      z = ~mean.rating, 
       text = ~paste('Most populated city:', most.pop.city, 
                     paste('Rating:', round(mean.rating, digits = 2)), 
                     sep = '<br />'),
+      locations = ~states,
       color = ~mean.rating,
+      colors = ~'YlOrRd',
       hoverinfo = 'text'
     ) %>%
+    colorbar(
+      title = "Mean Rating"
+      ) %>%
     layout(
       title = paste0("Average Rating of ", str_to_title(title.food), " Restaurants in the U.S."), 
       geo = geog
