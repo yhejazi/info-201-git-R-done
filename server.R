@@ -9,6 +9,8 @@ source("./scripts/scatter.R")
 source("./scripts/CityMap.R")
 
 shinyServer(function(input, output) {
+  
+  # Plots word cloud of restaurant names
   output$wordcloud <- renderPlot({
     corpus <- MakeWordCloud(input$radio)
     wordcloud_rep <- repeatable(wordcloud)
@@ -19,19 +21,20 @@ shinyServer(function(input, output) {
     return(MakeStackedBar(input$stackedInputCity))
   })
   
+  # Plots rating trend map
   output$map <- renderPlotly({
     return(MakeMap(input$food))
   })
-
+  
+  # Plots rating vs price scatter plot
   output$scatter <- renderPlotly({
   return(MakeScatter())
   })
   
+  # Plots map of popular cities' favorite type of food
   output$CityMap <- renderPlotly({
     return(MakeCityMap())
   })
-  
-  # output$mytable <- renderDataTable({favorites3})
   
   output$stackedBarSideText <- renderUI(
     HTML("<p> After selecting one of the major cities listed, the stacked bar chart will display the the 

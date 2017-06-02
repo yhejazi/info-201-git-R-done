@@ -3,8 +3,6 @@ library(plotly)
 library(shinythemes)
 library(markdown)
 
-# source("./scripts/CityMap.R")
-
 shinyUI(fluidPage(theme = shinytheme("united"),
   (navbarPage('U.S. Restaurant Diversity',
                    tabPanel("Project Description",
@@ -12,7 +10,7 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                         includeMarkdown("./ProjectDescription/ProjectDocumentation.md")    
                             )),
     
-                   
+                   # Creates the word cloud tab
                    tabPanel('Word Cloud',
                             titlePanel("Word Cloud"),
 
@@ -34,6 +32,7 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                               )
                             )
                    ),
+                   # Creates the bar chart tab
                    tabPanel('Type/Price',
                             titlePanel('Type w/Price Levels by City'),
                             sidebarLayout(
@@ -52,6 +51,7 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                               )
                               
                             )),
+                    # Creates map for rating trends
                     tabPanel('Rating Trends Map',
                              titlePanel('Restaurant Ratings Map'),
                              sidebarLayout(
@@ -72,7 +72,7 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                                  includeMarkdown('./GraphDescriptions/map-analysis.md')
                                )
                              )),
-              
+              # Creates the scatter plot tab
               tabPanel("Price vs. Rating",
                        titlePanel("Scatter of Average Price to Average Rating"),
                        
@@ -83,6 +83,7 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                        )
               ),
               
+              # Creates tab for map on popular cities
               tabPanel("Breaking it Up By City",
                         titlePanel("Breaking it Up By City"),
                         # Show a plot of the generated distribution
@@ -90,10 +91,8 @@ shinyUI(fluidPage(theme = shinytheme("united"),
                           plotlyOutput("CityMap"),
 
                            includeMarkdown("./GraphDescriptions/Inferences.md")
-              #            
-              #          
-              #          
                ),
+              # Tab for team description
               tabPanel("Meet The Team",
                        includeMarkdown("./MeetTeam/MeetTheTeam.md")    
               )

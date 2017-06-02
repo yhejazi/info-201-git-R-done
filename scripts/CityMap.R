@@ -1,9 +1,6 @@
 #adds in needed packages
 library("ggplot2")
 library("dplyr")
-library('jsonlite')
-library('httr')
-library('knitr')
 library('plotly')
 library('stringr')
 

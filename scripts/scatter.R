@@ -1,4 +1,3 @@
-library(purrr)
 library(dplyr)
 library(plotly)
 library(tidyr)
