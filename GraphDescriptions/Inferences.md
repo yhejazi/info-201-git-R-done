@@ -1,4 +1,4 @@
-## Summary of the Table:  
+## Summary of The Map Findings:  
 
 The table showed that out of the 50 cities...
 * **13** cities gave **Mediterranean** Food the highest ratings
