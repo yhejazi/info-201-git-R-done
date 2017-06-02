@@ -1,6 +1,4 @@
-library(httr)
 library(purrr)
-library(jsonlite)
 library(dplyr)
 library(plotly)
 library(tidyr)
