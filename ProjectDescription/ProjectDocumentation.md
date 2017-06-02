@@ -45,7 +45,7 @@ Once we determined our food categories, we decided to make variety of charts tha
 * A **Scatter Plot** that shows where each type of food lands on a scale of ratings vs average price
 
 ### Who Is Our Audience?
-Our targeted audience is consumers in the U.S. who are interested in the diversity of food in various locations. With our app, we hope users can explore food trends based on type, ratings, price, and location. After exploring the data, users may be able to relate it to the values, economic status, population racial diversity, cultural trends, etc. of a region/type of food.
+Our targeted audience is consumers in the U.S. who are interested in the diversity of food in various locations. With our app, we hope users can explore food trends based on type, ratings, price, and location. After exploring the data, users may be able to relate it to the values, economic status, population, racial diversity, cultural trends, etc. of a region/type of food.
 
 <!-- The first chart is a wordcloud that shows the most popular words in each resturant name seperated by category.  
 The second chart is a stacked bar chart that shows the   
