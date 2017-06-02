@@ -1,6 +1,6 @@
 ## Summary of The Map Findings:  
 
-The table showed that out of the 50 cities...
+The Map shows that out of the 50 cities...
 * **13** cities gave **Mediterranean** Food the highest ratings
 * **9** cities gave **Korean** Food the highest ratings
 * **8** cities gave **Mexican** Food the highest ratings
