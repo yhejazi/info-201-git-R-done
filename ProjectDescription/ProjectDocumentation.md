@@ -5,7 +5,7 @@
 ##### See our work on [GitHub!] (https://github.com/yhejazi/info-201-git-R-done)   
 
 ### What is Yelp?
-Yelp is essentially an online application that connects customers to local businesses by allowing them to write reviews and give ratings. Yelp's Chief Executive Officer and Co-founder, [Jeremy Stoppelman](https://www.yelpblog.com/2013/01/introducing-lives), describes Yelp's mission as a way to:
+Yelp is an online application that connects customers to local businesses by allowing them to write reviews and give ratings. Yelp's Chief Executive Officer and Co-founder, [Jeremy Stoppelman](https://www.yelpblog.com/2013/01/introducing-lives), describes Yelp's mission as a way to:
 
 > "...connect people with great local businesses; along the way, we hope to enrich lives of consumers and small business owners. In pursuit of this mission, we want to provide the most helpful information possible about local businesses. While ratings and reviews are incredibly powerful ways to guide spending decisions, we’re always looking for new ways to supplement the information to provide a better experience for consumers"
 
