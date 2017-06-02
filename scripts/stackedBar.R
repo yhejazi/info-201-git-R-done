@@ -1,8 +1,5 @@
-library(httr)
-library(purrr)
-library(jsonlite)
 library(plotly)
-library(ggplot2)
+library(stringr)
 
 #Returns a stacked bar chart that has the number of restaurants of a specific type within given city
 #and uses price range as a stacked variable
@@ -22,6 +19,10 @@ MakeStackedBar <- function(location) {
 }
 
 #Below was the inital code to gather and export city data as .csv files for easy access
+
+#library(httr)
+#library(jsonlite)
+#library(purrr)
 
 # res <- POST("https://api.yelp.com/oauth2/token",
 #             body = list(grant_type = "client_credentials",
